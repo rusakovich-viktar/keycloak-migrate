@@ -1,0 +1,13 @@
+spring:
+  shell:
+    interactive:
+      enabled: true
+    noninteractive:
+      enabled: false
+  application:
+    name: keycloak-migrate
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
